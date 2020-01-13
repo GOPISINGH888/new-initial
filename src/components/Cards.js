@@ -4,26 +4,20 @@ import { Link } from 'gatsby';
 
 const Card = () => (
   <Link to="/subject">
-    <div class="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-48x48">
-              <img
-                src="https://bulma.io/images/placeholders/96x96.png"
-                alt="Placeholder image"
-              />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">John Smith</p>
-            <p class="subtitle is-6">@johnsmith</p>
-          </div>
-        </div>
-        <div class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-          iaculis mauris.
-        </div>
+    <div className="card">
+      <div className="has-text-centered">
+        <figure className="image is-128x128">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzpqAoMoJ
+                DMLACpy-Jp9CWIPAKEUN6_V6yDg1qQCQMjG4YuKaS"
+            alt="Placeholder image"
+          />
+        </figure>
+      </div>
+      <div className="media-content">
+        <p className="title is-4">Computer Grpahics</p>
+        <p className="subtitle is-6">Last updted: 23rd september 2019</p>
+        <button className="button is-danger is-rounded">Open</button>
       </div>
     </div>
   </Link>
