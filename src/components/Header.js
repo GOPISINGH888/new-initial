@@ -68,7 +68,7 @@ export default class Header extends React.Component {
           >
             <div className="navbar-brand">
               <Link className="navbar-item" to="/">
-                <img src="/images/logo-1024.png" alt="site logo" />
+                <img src="/images/EE.png" alt="site logo" />
               </Link>
               <a
                 href="#"
@@ -97,7 +97,7 @@ export default class Header extends React.Component {
                   About
                 </Link>
                 <Link to="/news" className="navbar-item">
-                  News
+                  Semester
                 </Link>
                 <Link to="/contact" className="navbar-item">
                   Contact
