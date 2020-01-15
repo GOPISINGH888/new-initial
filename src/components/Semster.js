@@ -6,20 +6,8 @@ import Card from './Cards';
 const Semster = () => (
   <section className="section">
     <div className="container has-text-centered">
-      <h1 className="title is-2 has-text-danger">Select your Semster</h1>
+      <h1 className="title is-2 has-text-danger">new</h1>
       <div className="columns is-multiline">
-        <div className="column is-6">
-          <Card />
-        </div>
-        <div className="column is-6">
-          <Card />
-        </div>
-        <div className="column is-6">
-          <Card />
-        </div>
-        <div className="column is-6">
-          <Card />
-        </div>
         <div className="column is-6">
           <Card />
         </div>
