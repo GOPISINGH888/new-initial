@@ -38,7 +38,7 @@ const Section = styled.section`
     border-radius: 4px;
   }
   .logo {
-    margin-right: 12rem;
+    margin-right: 9rem;
   }
   .icon {
     margin-right: 1rem;
@@ -98,51 +98,62 @@ export default class Header extends React.Component {
             <div className={isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
               <div className="navbar-start">
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable ">
-                  <a className="navbar-link ">Home</a>
+                  <a className="navbar-link ">HOME</a>
 
                   <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">About</a>
-                    <a className="navbar-item is-size-6 ">Jobs</a>
+                    <a className="navbar-item is-size-6 ">HOME VERSION 1</a>
+                    <a className="navbar-item is-size-6 ">HOME VERSION 2</a>
+                    <a className="navbar-item is-size-6 ">HOME VERSION 3</a>
+                    <a className="navbar-item is-size-6 ">HOME VERSION 4</a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">About</a>
+                  <a className="navbar-link">ABOUT</a>
 
                   <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">About</a>
-                    <a className="navbar-item is-size-6 ">Jobs</a>
+                    <a className="navbar-item is-size-6 ">ABOUT</a>
+                    <a className="navbar-item is-size-6 ">ABOUT PROFILE</a>
+                    <a className="navbar-item is-size-6 ">ABOUT HISTORY</a>
+                    <a className="navbar-item is-size-6 ">ABOUT REPORT</a>
+                    <a className="navbar-item is-size-6 ">ABOUT TEAM</a>
+                    <a className="navbar-item is-size-6 ">ABOUT SUPPORT</a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">Services</a>
+                  <a className="navbar-link">SERVICE</a>
 
                   <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">About</a>
-                    <a className="navbar-item is-size-6 ">Jobs</a>
+                    <a className="navbar-item is-size-6">SERVICE VERSION 1</a>
+                    <a className="navbar-item is-size-6">SERVICE VERSION 2</a>
+                    <a className="navbar-item is-size-6">SERVICE VERSION 3</a>
+                    <a className="navbar-item is-size-6navbar-link">
+                      SERVICE DETAILS
+                    </a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">Otherpage</a>
+                  <a className="navbar-link">OTHERPAGES</a>
 
                   <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">About</a>
-                    <a className="navbar-item is-size-6 ">Jobs</a>
+                    <a className="navbar-item is-size-6 ">404</a>
+                    <a className="navbar-item is-size-6 ">COMING SOON</a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">Blog</a>
+                  <a className="navbar-link">BLOG</a>
 
                   <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">About</a>
-                    <a className="navbar-item is-size-6 ">Jobs</a>
+                    <a className="navbar-item is-size-6">BLOG VERSION 1</a>
+                    <a className="navbar-item is-size-6">BLOG VERSION 2</a>
+                    <a className="navbar-item is-size-6">SINGLE BLOG</a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">Contact</a>
+                  <a className="navbar-link">CONTACT</a>
 
                   <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">About</a>
-                    <a className="navbar-item is-size-6 ">Jobs</a>
+                    <a className="navbar-item is-size-6">CONTACT VERSION 1</a>
+                    <a className="navbar-item is-size-6">CONTACT VERSION 2</a>
                   </div>
                 </div>
               </div>
