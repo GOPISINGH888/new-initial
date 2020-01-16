@@ -10,6 +10,7 @@ const Section = styled.section`
 
   .navbar {
     background-color: transparent;
+    }
   }
   .navbar-brand {
     margin-right: 20px;
@@ -27,8 +28,7 @@ const Section = styled.section`
   .navbar-item is-size-6 {
     font-weight: 700;
     font-size: 1.2rem;
-    :hover {
-      color: ${props => props.theme.darkAccent};
+    
     }
   }
   .navbar-burger {
