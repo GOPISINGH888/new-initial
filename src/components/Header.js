@@ -24,7 +24,7 @@ const Section = styled.section`
       transition: 0.6s;
     }
   }
-  .navbar-itemis-size-6 {
+  .navbar-item is-size-6 {
     font-weight: 700;
     font-size: 1.2rem;
     :hover {
@@ -98,71 +98,111 @@ export default class Header extends React.Component {
             <div className={isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
               <div className="navbar-start">
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable ">
-                  <a className="navbar-link ">HOME</a>
+                  <a className="navbar-link has-text-white-bis">HOME</a>
 
-                  <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">HOME VERSION 1</a>
-                    <a className="navbar-item is-size-6 ">HOME VERSION 2</a>
-                    <a className="navbar-item is-size-6 ">HOME VERSION 3</a>
-                    <a className="navbar-item is-size-6 ">HOME VERSION 4</a>
+                  <div className="navbar-dropdown has-background-black">
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      HOME VERSION 1
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      HOME VERSION 2
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      HOME VERSION 3
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      HOME VERSION 4
+                    </a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">ABOUT</a>
+                  <a className="navbar-link has-text-white-bis">ABOUT</a>
 
-                  <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">ABOUT</a>
-                    <a className="navbar-item is-size-6 ">ABOUT PROFILE</a>
-                    <a className="navbar-item is-size-6 ">ABOUT HISTORY</a>
-                    <a className="navbar-item is-size-6 ">ABOUT REPORT</a>
-                    <a className="navbar-item is-size-6 ">ABOUT TEAM</a>
-                    <a className="navbar-item is-size-6 ">ABOUT SUPPORT</a>
+                  <div className="navbar-dropdown has-background-black">
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      ABOUT
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      ABOUT PROFILE
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      ABOUT HISTORY
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      ABOUT REPORT
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      ABOUT TEAM
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      ABOUT SUPPORT
+                    </a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">SERVICE</a>
+                  <a className="navbar-link has-text-white-bis">SERVICE</a>
 
-                  <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6">SERVICE VERSION 1</a>
-                    <a className="navbar-item is-size-6">SERVICE VERSION 2</a>
-                    <a className="navbar-item is-size-6">SERVICE VERSION 3</a>
-                    <a className="navbar-item is-size-6navbar-link">
+                  <div className="navbar-dropdown has-background-black">
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      SERVICE VERSION 1
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      SERVICE VERSION 2
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      SERVICE VERSION 3
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
                       SERVICE DETAILS
                     </a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">OTHERPAGES</a>
+                  <a className="navbar-link has-text-white-bis">OTHERPAGES</a>
 
-                  <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6 ">404</a>
-                    <a className="navbar-item is-size-6 ">COMING SOON</a>
+                  <div className="navbar-dropdown has-background-black">
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      404
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      COMING SOON
+                    </a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">BLOG</a>
+                  <a className="navbar-link has-text-white-bis">BLOG</a>
 
-                  <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6">BLOG VERSION 1</a>
-                    <a className="navbar-item is-size-6">BLOG VERSION 2</a>
-                    <a className="navbar-item is-size-6">SINGLE BLOG</a>
+                  <div className="navbar-dropdown has-background-black">
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      BLOG VERSION 1
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      BLOG VERSION 2
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      SINGLE BLOG
+                    </a>
                   </div>
                 </div>
                 <div className="navbar-item is-size-6  has-dropdown is-hoverable">
-                  <a className="navbar-link">CONTACT</a>
+                  <a className="navbar-link has-text-white-bis">CONTACT</a>
 
-                  <div className="navbar-dropdown">
-                    <a className="navbar-item is-size-6">CONTACT VERSION 1</a>
-                    <a className="navbar-item is-size-6">CONTACT VERSION 2</a>
+                  <div className="navbar-dropdown has-background-black">
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      CONTACT VERSION 1
+                    </a>
+                    <a className="navbar-item is-size-6 has-text-white-bis">
+                      CONTACT VERSION 2
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="navbar-end is-hidden-touch">
-                <div className="navbar-item">
-                  <i className="fas fa-user icon"></i>
-                  <i className="fas fa-search icon"></i>
-                  <i className="fas fa-shopping-bag icon"></i>
-                  <li class="select-language">
+                <div className="navbar-item has-text-white-bis">
+                  <i className="fas fa-user icon" />
+                  <i className="fas fa-search icon" />
+                  <i className="fas fa-shopping-bag icon" />
+                  <li className="select-language">
                     <select name="#" id="#">
                       <option selected="" value="End">
                         ENG
