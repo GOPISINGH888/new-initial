@@ -3,9 +3,9 @@ import reset from 'styled-reset-advanced';
 import { darken, lighten } from 'polished';
 
 const mainBrandColor = '#ffff';
-const lightShades = '##0000ffff';
+const lightShades = '#0000ffff';
 const darkAccent = '#f39c12';
-const darkShades = '#0A0A0A';
+const darkShades = '#000000';
 
 export const theme = {
   // It can be liberally applied to your layout as its main identity.
@@ -98,7 +98,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.lightAccent} !important;
   }
   hr{
-    color: ${theme.darkAccent}
+    background-color: ${theme.darkAccent} !important
   }
 `;
 
